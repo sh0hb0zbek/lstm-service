@@ -1,0 +1,9 @@
+tensorflow
+gym=0.21
+gym[atari]
+stable-baselines3
+seaborn
+matplotlib
+tqdm
+ipykernel
+pyglet

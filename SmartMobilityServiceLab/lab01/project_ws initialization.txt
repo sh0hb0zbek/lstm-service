@@ -1,0 +1,8 @@
+cd ~
+mkdir turtlebot3/src
+cd turtlebot3/
+catkin_make
+cd src/
+catkin_create_pkg autonomous std_msgs rospy
+git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3.git

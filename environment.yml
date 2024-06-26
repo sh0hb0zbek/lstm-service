@@ -1,0 +1,4 @@
+name: lstm-env
+dependencies:
+  - pip:
+    - -r requirements.txt
